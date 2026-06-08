@@ -57,7 +57,7 @@ npx playwright show-report
 
 Below is an example of the Playwright test execution report:
 
-![Playwright Report](assets/screenshot/playwright-report.PNG)
+![Playwright Report](assets/screenshots/playwright-report.PNG)
 
 📊 Key Concepts Practiced
 
