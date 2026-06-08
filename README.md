@@ -1,6 +1,8 @@
-🧪 Playwright QA Automation Framework
+## 🧪 Playwright QA Automation Framework
 
-📌 Overview
+![CI](https://github.com/CataB17/playwright-automation-framework/actions/workflows/playwright.yml/badge.svg)
+
+## 📌 Overview
 
 This project is an end-to-end UI automation testing framework built with Playwright using the Page Object Model (POM) design pattern.
 
@@ -14,20 +16,20 @@ It simulates a real-world e-commerce user journey, including:
 
 The goal of this project is to demonstrate QA Automation skills, test design, and scalable framework structure.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 * Playwright
 * JavaScript (Node.js)
 * Page Object Model (POM)
 * Git & GitHub
 
-📂 Project Structure
+## 📂 Project Structure
 
 * pages/               # Page Object classes (locators + actions)
 * tests/               # Test scenarios (user flows)
 * playwright.config.js # Playwright configuration
 
-🚀 Test Scenarios Covered
+## 🚀 Test Scenarios Covered
 
 * User login (valid and invalid credentials)
 * Add product to cart
@@ -35,7 +37,7 @@ The goal of this project is to demonstrate QA Automation skills, test design, an
 * Complete checkout process
 * Order confirmation validation
 
-▶️ How to Run Tests
+## ▶️ How to Run Tests
 
 1. Install dependencies
 
@@ -59,9 +61,17 @@ Below is an example of the Playwright test execution report:
 
 ![Playwright Report](assets/screenshots/playwright-report.PNG)
 
-![CI](https://github.com/CataB17/playwright-automation-framework/actions/workflows/playwright.yml/badge.svg)
+## ⚙️ CI/CD Pipeline
 
-📊 Key Concepts Practiced
+This project uses GitHub Actions to automatically run all Playwright tests on every push and pull request.
+
+The pipeline ensures:
+
+- Automated test execution
+- Dependency installation
+- Cross-environment validation (Linux runner)
+
+## 📊 Key Concepts Practiced
 
 * End-to-End (E2E) Testing
 * Page Object Model (POM)
