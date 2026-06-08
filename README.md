@@ -70,7 +70,13 @@ Below is an example of the Playwright test execution report:
 
 🎯 Project Goal
 
-This project was built as part of a QA Automation learning path to simulate real-world testing scenarios and demonstrate automation framework design skills.
+This project was built as part of a QA Automation learning path to simulate real-world testing scenarios and demonstrate automation framework design skills including:
+
+- Scalable test design using POM
+- End-to-end user flows
+- Locator strategy best practices
+- Maintainable automation structure
+- Git/GitHub workflow
 
 👩‍💻 Author
 
