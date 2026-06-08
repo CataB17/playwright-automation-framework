@@ -59,6 +59,8 @@ Below is an example of the Playwright test execution report:
 
 ![Playwright Report](assets/screenshots/playwright-report.PNG)
 
+![CI](https://github.com/CataB17/playwright-automation-framework/actions/workflows/playwright.yml/badge.svg)
+
 📊 Key Concepts Practiced
 
 * End-to-End (E2E) Testing
