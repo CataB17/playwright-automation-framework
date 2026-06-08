@@ -1,56 +1,73 @@
-Playwright QA Automation Framework
+🧪 Playwright QA Automation Framework
 
 📌 Overview
 
-This project is an end-to-end UI automation framework built with Playwright using the Page Object Model (POM) design pattern. It simulates a real e-commerce user journey including login, product selection, cart validation, checkout process, and order confirmation.
+This project is an end-to-end UI automation testing framework built with Playwright using the Page Object Model (POM) design pattern.
 
-🧪 Tech Stack
+It simulates a real-world e-commerce user journey, including:
+
+* User authentication (valid and invalid login scenarios)
+* Product selection
+* Shopping cart validation
+* Checkout process
+* Order confirmation validation
+
+The goal of this project is to demonstrate QA Automation skills, test design, and scalable framework structure.
+
+🛠️ Tech Stack
 
 * Playwright
 * JavaScript (Node.js)
 * Page Object Model (POM)
+* Git & GitHub
 
 📂 Project Structure
 
-* pages/ → Page Object classes (UI actions & locators)
-* tests/ → Test scenarios (user flows)
-* playwright.config.js → Framework configuration
-
+* pages/               # Page Object classes (locators + actions)
+* tests/               # Test scenarios (user flows)
+* playwright.config.js # Playwright configuration
 
 🚀 Test Scenarios Covered
 
-* User login (valid & invalid)
+* User login (valid and invalid credentials)
 * Add product to cart
 * Validate cart contents
 * Complete checkout process
 * Order confirmation validation
 
-
 ▶️ How to Run Tests
 
-Install dependencies:
+1. Install dependencies
 
 npm install
 
-Run tests:
+2. Run all tests
 
 npx playwright test
 
-Run UI mode:
+3. Run tests in UI mode
 
 npx playwright test --ui
 
+4. View HTML report
+
+npx playwright show-report
 
 📊 Key Concepts Practiced
 
-* End-to-end testing
+* End-to-End (E2E) Testing
 * Page Object Model (POM)
-* Locator strategies
+* Locator strategies (id, CSS, data attributes)
 * Assertions and validations
-* Test design for real user flows
+* Test automation best practices
+* Git version control basics
 
+🎯 Project Goal
+
+This project was built as part of a QA Automation learning path to simulate real-world testing scenarios and demonstrate automation framework design skills.
 
 👩‍💻 Author
 
 Catalina Borja
-QA Automation Learning Project
+QA Automation Engineer in training
+Portfolio project for learning and professional growth
