@@ -53,6 +53,12 @@ npx playwright test --ui
 
 npx playwright show-report
 
+## 📊 Test Execution Report
+
+Below is an example of the Playwright test execution report:
+
+![Playwright Report](assets/playwright-report.png)
+
 📊 Key Concepts Practiced
 
 * End-to-End (E2E) Testing
